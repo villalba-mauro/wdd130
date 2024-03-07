@@ -18,5 +18,26 @@ img {
     box-shadow: 0 0 30 grey;
 }
 p {
-    padding: 10px;
+    padding: 0;
+}
+main {
+    max-width: 840px;
+}
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+aside image {
+    width: 200px;
+    height: auto;
+}
+main image {
+    width: 150px;
+    height: auto;
+    
 }
