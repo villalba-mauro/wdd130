@@ -29,7 +29,8 @@ main {
     max-width: 840px;
 }
 aside {
-    width: 20em;
+    position: relative;
+    width: 500px;
     text-align: center;
 }
 aside img {
@@ -39,7 +40,7 @@ aside img {
 main img {
     float: right;
     height: auto;
-   
+    margin:0 0 1rem 1rem ;
 }
 footer {
     margin-top: 15px;
@@ -47,7 +48,7 @@ footer {
     text-align: center;
 }
 
-/*Class Selector*/
+/*Class Selectors*/
 
 .box{
     margin: 1rem;
@@ -59,6 +60,10 @@ footer {
 
 aside h2{
     position: absolute;
-    top: 500px;
-    left: 125px;
+    top: 20px;
+    left: 200px;
+}
+
+.box li{
+    margin: 10px ;
 }
