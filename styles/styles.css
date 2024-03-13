@@ -58,6 +58,7 @@ footer {
 }
 
 aside h2{
-    position: relative;
-    height: 1px;
+    position: absolute;
+    top: 500px;
+    left: 125px;
 }
