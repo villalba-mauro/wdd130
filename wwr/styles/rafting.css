@@ -8,7 +8,7 @@
     --link-color: #007bff; /* Adjust as needed */
     --hero-background: url('images/river-wide2.jpeg') no-repeat center center/cover; /* Adjust the path to your hero image */
     --article-background: rgba(235, 204, 204, 0.685); /* Adjust the background color and opacity */
-    --heading-font:'Roboto';
+    --heading-font:'Roboto Slab';
     --paragraph-font:'Glory';
 }
 
