@@ -63,9 +63,16 @@ margin-right: 10px;
     position: relative;
     background: var(--hero-background);
 }
+
+.hero-para{
+    margin: 10px auto;
+    position: relative;
+    right: -10px;
+    height: 90px;
+
+}
 /* Establecer el mismo ancho a todas las imágenes dentro de la sección */
 section img {
-    width: 80%; /* Ajusta el ancho según sea necesario */
     height:50%; /* Esto permite mantener la proporción de aspecto */
     margin-bottom: 10px; /* Ajusta el margen inferior según sea necesario */
 }
@@ -100,6 +107,7 @@ nav{
     background-color: var(--article-background);
     opacity: 0.9; /* Adjust the opacity as needed */
     width: 70%; /* Adjust the width as needed */
+    height: 90px;
 }
 
 /* Floating img inside the article */
