@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@300&family=Roboto+Slab&display=swap');
+
+:root{
+--primary-color:  #1F5673;
+--secondary-color: #90C3C8;
+--accent1-color: #ebe5ec;
+--accent2-color: #FAA916;
+
+--heading-font: 'Reboto Slab',serif;
+--paragraph-font:'Glory',serif;
+--nav-link-hover:var(--accent2-color);
+--nav-hover-link-color:var(--accent1-color);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+.hero img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1{
+    position: absolute;
+    width: 100px;
+}
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a :hover{
+    color: var(--accent2-color)
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+
+footer{
+    background-color: var(--accent1-color);
+}
