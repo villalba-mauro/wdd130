@@ -75,6 +75,7 @@ margin-right: 10px;
 section img {
     height:50%; /* Esto permite mantener la proporción de aspecto */
     margin-bottom: 10px; /* Ajusta el margen inferior según sea necesario */
+    width: 50%;
 }
 
 .history p{
