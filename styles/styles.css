@@ -41,6 +41,7 @@ p {
 main {
     width: 30rem;
     grid-column: 2/3;
+    margin-left: 0.5rem;
     
 }
 
@@ -70,6 +71,14 @@ footer.grid {
     text-align: center;
 }
 
+footer p {
+    justify-content: center;
+    display: flex;
+    border-top: 1px solid #000;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
 /*Class Selectors*/
 
 .box{
@@ -87,11 +96,15 @@ aside h2 {
 }
 
 .box1 li{
-    margin: 10px ;
+    margin-left: 30px;
     width: auto;
-    background-color: #ddd;
+    padding: 0.5rem;
     color: hsl(0, 0%, 0%);
     padding: 0.5rem;
+
+}
+ul{
+    background-color: #ddd;
     border: 1px solid rgba(78, 71, 185, 0.459);
 }
 .grid{
