@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Glory:wght@300&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100..800&family=Roboto+Slab&display=swap');
 
-
-/* Define CSS variables */
 :root {
     --heading-color: #000000;
     --paragraph-color: #140303;
@@ -15,11 +13,12 @@
 /* Styling headings and paragraph elements */
 h2 {
     color: var(--heading-color);
-    font-family: var(--heading-font)
+    font-family: var(--heading-font);
+
 }
 h1{
     font-family: var(--heading-font);
-    color: rgb(26, 21, 1);
+    color: rgb(0, 0, 0);
     opacity: 0.7;
 }
 
@@ -40,88 +39,155 @@ footer .sociallinks a {
 
 /* Limiting the width of the page */
 body {
-    max-width: 960px; /* Adjust as needed */
+    max-width: 100%;
     margin: 0 auto;
 }
 
 /* Positioning the hero img */
-.hero img{
-    width: 100%;
-    height: auto;
-    float: right;
+main img {
+    max-width: 100%; /* Establece el ancho máximo para que las imágenes se ajusten al ancho del cuerpo */
+    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+    display: block; /* Asegura que las imágenes se muestren una debajo de la otra */
+    margin-bottom: 20px; /* Agrega un espacio entre las imágenes */
 }
 
-nav img{
-position: relative;
-height: 70px;
-margin-right: 10px;
+.header{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:1fr 2fr 30px;
+    align-items: center;
+    border: 2px solid #0453a7;
+    max-width: 100%;
+    background-color: rgba(116, 179, 245, 0.47);
 }
+
+.header img{
+    height: 100px;
+
+}
+
+.imagen1{
+    width: 100%;
+}
+
 
 
 /* Positioning the hero section */
 .hero {
-    position: relative;
+    position:relative;
     background: var(--hero-background);
+    top: 2px;
+
 }
 
 .hero-para{
     margin: 10px auto;
     position: relative;
     right: -10px;
-    height: 90px;
-
+    height: 50px;
+    font-size: 20px;
 }
 /* Establecer el mismo ancho a todas las imágenes dentro de la sección */
-section img {
-    height:50%; /* Esto permite mantener la proporción de aspecto */
-    margin-bottom: 10px; /* Ajusta el margen inferior según sea necesario */
-    width: 50%;
-}
 
-.history p{
-    position: absolute;
-    padding-right:15px;
+.History h2{
+  position: absolute;
+  top: 77%;
+}
+.History p{
+  margin: 20px;
+  font-size: 20px;
+}
+.History{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 nav a {
-    display:inline-block;
+    font-family: var(--heading-font);
+    font-size: 120%;
     color: var(--nav-link-color);
     text-decoration: orange;
-    padding: 1rem;
+    padding: 0.3rem;
 }
 
-nav{
-    margin: 10px;
+.navigation a:hover{
+    background-color: rgb(255, 214, 120);
 }
+
+
+.navigation{
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 100%; 
+}
+
 /* Positioning h1 and article elements on top of the hero image */
-.hero h1 {
+.hero h1{
     position: absolute;
-    top:20%;
-    right: 400px;  
+    top:10%;
+    left: 645px;
+    align-content: center;
+   
 }
 
 .hero article {
     position: absolute;
-    top: 150px; /* Adjust as needed */
+    top: 220px; /* Adjust as needed */
     left: 50%;
     transform: translateX(-50%);
     padding: 10px;
     background-color: var(--article-background);
     opacity: 0.9; /* Adjust the opacity as needed */
     width: 70%; /* Adjust the width as needed */
-    height: 90px;
+    height: 140px;
 }
 
 /* Floating img inside the article */
 .hero article img {
     float: left;
-    margin-left: 15px;
+    margin-left: 10px;
     width: 20%;
     top: 5%;
-
 }
+.clase1 h2{
+    margin-left:2%;
+}
+
+.clase1{
+    background-color: rgba(116, 179, 245, 0.47);
+}
+
+.fotos{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    
+   
+}
+.fotos img {
+    max-width: 100%; /* Cambiado a 100% para que las imágenes se ajusten al contenedor */
+    height: 170px; /* Permite que la altura se ajuste automáticamente según el ancho */
+    border: 1px solid; /* Se mantiene el borde */
+   
+}
+
+
+figcaption {
+    background-color: #050505c2;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 1px;
+    text-align: center; /* Centra el texto dentro de los elementos figcaption */
+}
+
+
 
 /* Additional styling for footer */
 footer {
-    background-color: #f8f9fa; /* Adjust as needed */
+    background-color: rgba(116, 179, 245, 0.47);; /* Adjust as needed */
     padding: 20px;
+    text-align: right;
 }
