@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Inter,Georgia, serif;
+    font-size: 1.2em;
+    color: #000;
+    background:beige;
+}
+
+header{
+    margin: 0 auto;
+    width: 650px;
+    text-align: center;
+}
+
+h1{
+    margin: 0.5rem 0 ;
+    font-size: 1.5em;
+    font-family: Roboto Slab;
+}
+
+form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid burlywood;
+    border-radius: 0.5rem;
+    background-color: beige;
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .75rem;
+    margin: 1rem;
+    border:1px solid rgb(228, 172, 246);
+    padding: 1rem;
+}
+legend{
+    margin: .5rem;
+    font-size: 1.1em;
+    font-family: Roboto Slab;
+    color: rgb(22, 1, 129);
+}
+ 
+textarea, input, select,p{  
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.item1,.item2,.item3,.item4 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 1rem;
+}
+
+
+
+#q3{
+    font-size:1.2rem;
+    width: 150px;
+}
+
+.item4 p{
+    background-color: #7777778e;
+}
+
+.item4 input{
+    width:100px
+}
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border:none;
+    border-radius: 5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    font-family: Roboto Slab;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
+
+footer{
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align:center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #2106068e;
+}
