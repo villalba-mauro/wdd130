@@ -52,6 +52,7 @@ legend{
 textarea, input, select,p{  
     padding: 0.5rem;
     margin: 1rem;
+    font-size: 1.2rem;
 }
 
 .item1,.item2,.item3,.item4 {
