@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Inter,Georgia, serif;
+    font-size: 1.2em;
+    color: #000;
+    background:beige;
+}
+
+header{
+    margin: 0 auto;
+    width: 650px;
+}
+h1{
+    margin: 0.1rem;
+    font: size 0.5em;
+    font-family: Roboto Slab;
+}
+
+form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid burlywood;
+    border-radius: 0.5rem;
+    background-color: beige;
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border:1px solid rgb(204, 115, 231);
+    padding: 1rem;
+}
+
+label{
+    text-align: right;
+    padding-right: 1rem;
+}
+
+legend{
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;  
+}
+
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"]{
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+}
+
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.column2{
+    grid-template-columns: 1fr 2fr;
+}
+
+.column3{
+    text-align: center;
+}
+
+button{
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border:none;
+    border-radius: 5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    font-family: Roboto Slab;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
+
+footer{
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
