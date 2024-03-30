@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto+Slab&display=swap');
+
+.header{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:1fr 2fr 30px;
+    align-items: center;
+    border: 2px solid #0453a7;
+    max-width: 100%;
+    background-color: rgba(116, 179, 245, 0.47);
+
+    background-image: url(../images/8888.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+}
+
+.header img{
+    height: 100px;
+
+}
+
+nav a {
+    font-family:'Roboto Slab';
+    font-size: 120%;
+    color: var(--nav-link-color);
+    text-decoration: orange;
+    
+
+}
+
+.navigation a:hover{
+    background-color: rgb(255, 214, 120);
+}
+.navigation{
+    display: flex;
+    list-style: none;
+}
+.navigation li {
+    flex: 1 1 100%; 
+}
+
+body {
+    max-width: 100%;
+    margin: 0 auto;
+}
+div img{
+    max-width: 250px;
+    max-height: 100px;
+    border-radius: 50% ;
+
+}
+
+
+.caja{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    place-items:center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 1rem;
+    font-family: Inter,Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+
+form{
+    background-color: #E8F1F2;
+    display: grid;
+    grid-template-columns:4fr 3fr ;
+}
+
+.column1{
+    display: grid;
+    margin: 1rem;
+    padding: 1rem;
+    border: 5px solid rgb(32, 63, 64);
+    border-radius: 5px;
+    place-items:center;
+    font-size: 1.2rem;
+    font-family:Inter,Helvetica, sans-serif;
+    background-color: cadetblue;
+}
+
+legend{
+    font-family:'Roboto Slab';
+    font-size:2.8rem;
+}
+
+.column2{
+    display: grid;
+    margin: 1rem;
+    padding: 1rem;
+    border: 5px solid cadetblue;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: Inter,Helvetica, sans-serif;
+    place-items:left;
+}
+.company h1{
+    font-family:'Roboto Slab';
+    font-size:2rem;
+}
+
+footer{
+    border-top: 1px solid grey;
+    color: rgba(116, 179, 245, 0.47);
+    font-family: Inter,Helvetica, sans-serif;
+}
+
+.parrafo{
+    display:flex;
+    justify-content:center;
+    color:grey;
+    font-size: 0.9rem;
+
+}
+.sociallinks {
+    text-decoration: none;
+    display:flex;
+    justify-content:baseline;
+}
+.sociallinks img{
+    width: 25px;
+    margin-right: 8px;   
+}
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border:none;
+    border-radius: 5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    font-family: Roboto Slab;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
+
+
+
