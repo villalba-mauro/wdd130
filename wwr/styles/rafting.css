@@ -1,56 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Glory:wght@100..800&family=Roboto+Slab&display=swap');
-
-:root {
-    --heading-color: #000000;
-    --paragraph-color: #140303;
-    --link-color: #007bff; /* Adjust as needed */
-    --hero-background: url('images/river-wide2.jpeg') no-repeat center center/cover; /* Adjust the path to your hero image */
-    --article-background: rgba(235, 204, 204, 0.685); /* Adjust the background color and opacity */
-    --heading-font:'Roboto Slab';
-    --paragraph-font:'Glory';
-}
-
-/* Styling headings and paragraph elements */
-h2 {
-    color: var(--heading-color);
-    font-family: var(--heading-font);
-
-}
-h1{
-    font-family: var(--heading-font);
-    color: rgb(0, 0, 0);
-    opacity: 0.7;
-}
-
-p {
-    color: var(--paragraph-color);
-    font-family:var(--paragraph-font) ;
-}
-
-/* Adding colors to fonts */
-a {
-    color: var(--link-color);
-}
-
-/* Remove underlines from social media links */
-footer .sociallinks a {
-    text-decoration: none;
-}
-
-/* Limiting the width of the page */
-body {
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-/* Positioning the hero img */
-main img {
-    max-width: 100%; /* Establece el ancho máximo para que las imágenes se ajusten al ancho del cuerpo */
-    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
-    display: block; /* Asegura que las imágenes se muestren una debajo de la otra */
-    margin-bottom: 20px; /* Agrega un espacio entre las imágenes */
-}
-
 .header{
     margin: 0 auto;
     display: grid;
@@ -59,6 +7,12 @@ main img {
     border: 2px solid #0453a7;
     max-width: 100%;
     background-color: rgba(116, 179, 245, 0.47);
+
+    background-image: url(../images/8888.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
 }
 
 .header img{
@@ -66,128 +20,130 @@ main img {
 
 }
 
-.imagen1{
-    width: 100%;
-}
-
-
-
-/* Positioning the hero section */
-.hero {
-    position:relative;
-    background: var(--hero-background);
-    top: 2px;
-
-}
-
-.hero-para{
-    margin: 10px auto;
-    position: relative;
-    right: -10px;
-    height: 50px;
-    font-size: 20px;
-}
-/* Establecer el mismo ancho a todas las imágenes dentro de la sección */
-
-.History h2{
-  position: absolute;
-  top: 77%;
-}
-.History p{
-  margin: 20px;
-  font-size: 20px;
-}
-.History{
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 nav a {
-    font-family: var(--heading-font);
+    font-family:'Roboto Slab';
     font-size: 120%;
     color: var(--nav-link-color);
     text-decoration: orange;
-    padding: 0.3rem;
+    
+
 }
 
 .navigation a:hover{
     background-color: rgb(255, 214, 120);
 }
-
-
 .navigation{
     display: flex;
     list-style: none;
 }
-
 .navigation li {
     flex: 1 1 100%; 
 }
 
-/* Positioning h1 and article elements on top of the hero image */
-.hero h1{
-    position: absolute;
-    top:10%;
-    left: 645px;
-    align-content: center;
-   
+body {
+    max-width: 100%;
+    margin: 0 auto;
+}
+div img{
+    max-width: 250px;
+    max-height: 100px;
+    border-radius: 50% ;
+
 }
 
-.hero article {
-    position: absolute;
-    top: 220px; /* Adjust as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px;
-    background-color: var(--article-background);
-    opacity: 0.9; /* Adjust the opacity as needed */
-    width: 70%; /* Adjust the width as needed */
-    height: 140px;
-}
 
-/* Floating img inside the article */
-.hero article img {
-    float: left;
-    margin-left: 10px;
-    width: 20%;
-    top: 5%;
-}
-.clase1 h2{
-    margin-left:2%;
-}
-
-.clase1{
-    background-color: rgba(116, 179, 245, 0.47);
-}
-
-.fotos{
+.caja{
     display:grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: 33% 33% 33%;
+    place-items:center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 1rem;
+    font-family: Glory,Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+
+form{
+    background-color: #E8F1F2;
+    display: grid;
+    grid-template-columns:5fr 3fr ;
+}
+
+.column1{
+    display: grid;
     
-   
-}
-.fotos img {
-    max-width: 100%; /* Cambiado a 100% para que las imágenes se ajusten al contenedor */
-    height: 170px; /* Permite que la altura se ajuste automáticamente según el ancho */
-    border: 1px solid; /* Se mantiene el borde */
-   
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 5px solid rgb(32, 63, 64);
+    border-radius: 5px;
+    place-items:center;
+    font-size: 1.2rem;
+    font-family:Glory,Helvetica, sans-serif;
+    background-color: cadetblue;
 }
 
 
-figcaption {
-    background-color: #050505c2;
+
+
+h2{
+    font-family:'Roboto Slab';
+    font-size:2.8rem;
+
+
+}
+
+.column2{
+    display: grid;
+    margin: 1rem;
+    padding: 1rem;
+    border: 5px solid cadetblue;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: Glory,Helvetica, sans-serif;
+    
+}
+.company h1{
+    font-family:'Roboto Slab';
+    font-size:2rem;
+}
+
+footer{
+    border-top: 1px solid grey;
+    color: rgba(116, 179, 245, 0.47);
+    font-family: Glory,Helvetica, sans-serif;
+}
+
+.parrafo{
+    display:flex;
+    justify-content:center;
+    color:grey;
+    font-size: 0.9rem;
+
+}
+.sociallinks {
+    text-decoration: none;
+    display:flex;
+    
+}
+.sociallinks img{
+    width: 25px;
+    margin-right: 8px;   
+}
+button {
+    margin: 1rem;
+    background-color: navy;
     color: #fff;
-    font: italic smaller sans-serif;
-    padding: 1px;
-    text-align: center; /* Centra el texto dentro de los elementos figcaption */
+    border:none;
+    border-radius: 5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    font-family: Roboto Slab;
+}
+
+button:hover{
+    background-color: darkgreen;
 }
 
 
 
-/* Additional styling for footer */
-footer {
-    background-color: rgba(116, 179, 245, 0.47);; /* Adjust as needed */
-    padding: 20px;
-    text-align: right;
-}
