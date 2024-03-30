@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en-Us">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Contact Us Page">
     <meta name="author" content="Contact Us Page">
-    <title>Contact Us Page</title>
+    <title>Contact Milo Rafting</title>
     <link rel="stylesheet" href="styles/contact.css">
 </head>
 <body>
@@ -21,64 +21,73 @@
         </nav>
     </header>
     <main>
-   
-    <div class="caja">
-        <div class="employee-profile">
-            <img src="images/Empleado1.png" alt="Employee 1">
-            <figcaption><strong>Name:</strong> Eduardo Perez<br><strong>Education:</strong> Master of Tourism Management</figcaption>
+        <div class="caja">
+            <figure class="employee-profile">
+                <img src="images/Empleado1.png" alt="Employee 1">
+                <figcaption><strong>Name:</strong> Eduardo Perez<br><strong>Education:</strong> Master of Tourism Management</figcaption>
+            </figure>
+            <figure class="employee-profile">
+                <img src="images/Empleado2.png" alt="Employee 2">
+                <figcaption><strong>Name:</strong> Sebastian Benega<br><strong>Education:</strong> Bachelor of Adventure Tourism</figcaption>
+            </figure>
+            <figure class="employee-profile">
+                <img src="images/Empleado3.png" alt="Employee 3">
+                <figcaption><strong>Name:</strong> Hugo Inzaulrrande<br><strong>Education:</strong> Associate Degree in Ecotourism</figcaption>
+            </figure>
         </div>
-        <div class="employee-profile">
-            <img src="images/Empleado2.png" alt="Employee 2">
-            <figcaption><strong>Name:</strong> Sebastian Benega<br><strong>Education:</strong> Bachelor of Adventure Tourism</figcaption>
-        </div>
-        <div class="employee-profile">
-            <img src="images/Empleado3.png" alt="Employee 3">
-            <figcaption> <strong>Name:</strong> Hugo Inzaulrrande<br><strong>Education:</strong>Associate Degree in Ecotourism</figcaption>
-        </div>
-        
-    </div>    
-    <form>
-        <div class="column1">
-            <legend>Contact Us</legend>
-            <div class="form-item1"> 
-                <label for="fullname"><strong>Full Name:</strong></label>
-                <input type="text" id="fullname" name="fullname">
-            </div>
-            <div class="form-item2">
-                <label for="usermail"><strong>Email:</strong></label>
-                <input type="email" id="usermail" name="usermail">
-            </div>
-            <div class="form-group">
-                    <label for="purpose"><strong>Purpose of Message:</strong></label><br>
+
+        <form>
+            <div class="column1">
+                <h2>Contact Us</h2>
+                <div class="form-item1"> 
+                    <label for="fullname"><strong>Full Name:</strong></label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item2">
+                    <label for="usermail"><strong>Email:</strong></label>
+                    <input type="email" id="usermail" name="usermail">
+                </div>
+                <div class="form-group">
+                    <p><strong>Purpose of Message:</strong><br></p>
                     <input type="radio" id="general" name="purpose" value="General Inquiry">
                     <label for="general">General Inquiry</label><br>
                     <input type="radio" id="reservation" name="purpose" value="Reservation Question">
                     <label for="reservation">Reservation Question</label><br>
                     <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
                     <label for="suggestion">Website Suggestion</label><br>
-            </div>
+                </div>
+                <div class="form-item3">
+                    <p><strong>What rafting activities are you interested in?</strong></p><br>
+                    <input type="checkbox" id="river-descent" name="interest" value="River Descent">
+                    <label for="river-descent">River Descent</label><br>
+                    <input type="checkbox" id="rafting-course" name="interest" value="Rafting Course">
+                    <label for="rafting-course">Rafting Course</label><br>
+                    <input type="checkbox" id="river-excursion" name="interest" value="River Excursion">
+                    <label for="river-excursion">River Excursion</label><br><br>
+                </div>
+                <div class="form-item4">
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                </div>
                 
-            <button type="submit">Submit</button>
-        </div>
-        <div class="column2">
-            <div class="company">
-                <h1>Company Information</h1>
-                <p><Strong>Address:</Strong> Nansen 323</p>
-                <p><strong>Phone number:</strong> +54 314 2689554</p>
-                <p><strong>Email:</strong> milorafting@gmail.com</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29146.87872116266!2d-60.687398798129905!3d-32.91587996215025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b653668ddc5657%3A0x26f81e4ed5bf36fc!2sPortal%20Rosario%20Shopping!5e0!3m2!1ses-419!2sar!4v1711723564115!5m2!1ses-419!2sar" width="400" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <button type="submit">Submit</button>
             </div>
+            <div class="column2">
+                <div class="company">
+                    <h1>Company Information</h1>
+                    <p><Strong>Address:</Strong> Nansen 323</p>
+                    <p><strong>Phone number:</strong> +54 314 2689554</p>
+                    <p><strong>Email:</strong> milorafting@gmail.com</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29146.87872116266!2d-60.687398798129905!3d-32.91587996215025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b653668ddc5657%3A0x26f81e4ed5bf36fc!2sPortal%20Rosario%20Shopping!5e0!3m2!1ses-419!2sar!4v1711723564115!5m2!1ses-419!2sar" width="400" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             
-            <nav class="sociallinks">
-                <a href="https://www.facebook.com/"></a>
-                    <img src="images/facebook.png" alt="Facebook">
-                <a href="https://www.instagram.com/"></a>
-                    <img src="images/instagram.png" alt="Instagram">
-                <a href="https://twitter.com/?lang=es"></a>
-                    <img src="images/twitter.png" alt="Twitter">
-            </nav>
-        </div>
-    </form>
+                <nav class="sociallinks">
+                    <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram"></a>
+                    <a href="https://twitter.com/?lang=es"><img src="images/twitter.png" alt="Twitter"></a>
+                </nav>
+            </div>
+        </form>
     </main>
     <footer>
         <p class="parrafo">©️ 2024 | Milo Rafting | Mauro Villalba </p>
