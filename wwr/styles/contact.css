@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto+Slab&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100..800&family=Roboto+Slab&display=swap');
 .header{
     margin: 0 auto;
     display: grid;
@@ -60,7 +59,7 @@ div img{
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 1rem;
-    font-family: Inter,Helvetica, sans-serif;
+    font-family: Glory,Helvetica, sans-serif;
     color: rgb(0, 0, 0);
 
 }
@@ -80,7 +79,7 @@ form{
     border-radius: 5px;
     place-items:center;
     font-size: 1.2rem;
-    font-family:Inter,Helvetica, sans-serif;
+    font-family:Glory,Helvetica, sans-serif;
     background-color: cadetblue;
 }
 
@@ -101,7 +100,7 @@ h2{
     border: 5px solid cadetblue;
     border-radius: 5px;
     font-size: 1rem;
-    font-family: Inter,Helvetica, sans-serif;
+    font-family: Glory,Helvetica, sans-serif;
     
 }
 .company h1{
@@ -112,7 +111,7 @@ h2{
 footer{
     border-top: 1px solid grey;
     color: rgba(116, 179, 245, 0.47);
-    font-family: Inter,Helvetica, sans-serif;
+    font-family: Glory,Helvetica, sans-serif;
 }
 
 .parrafo{
