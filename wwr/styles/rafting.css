@@ -316,8 +316,7 @@ footer{
 }
 .sociallinks {
     text-decoration: none;
-    display:flex;
-    
+    display:flex;   
 }
 .sociallinks img{
     width: 25px;
@@ -374,7 +373,99 @@ button:hover{
     position: absolute;
     top:10%;
     left: 645px;
-    align-content: center;
+    align-content: stretch;
    
+}
+
+/*Hoja de Trips*/
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #BFD7D9;
+}
+.titulo{
+  text-align: center;
+}
+h3{
+    font-family:'Roboto Slab' ;
+}
+.titulo a{
+    text-decoration: none;
+    font-family:'Roboto Slab';
+    color:#ccc;
+    font-size: 1rem;
+}
+
+.titulo button:hover{
+    background-color: darkgreen; 
+}
+.trip {
+    margin-bottom: 20px;
+    border: 2px solid #07484B;
+    margin: 5px;
+    padding: 10px;
+    max-width: 60vh;  
+}
+
+.trip p {
+    text-align:justify;
+}
+    
+.trip img{
+    max-width: 50vh;
+    
+}
+ .titulo2{
+    text-align: left;
+    margin: 10px;
+
+    grid-column: 1; /* Ocupa las dos columnas */
+    grid-row: 1; /* En la fila 1 */
+ }
+
+ .Tabla{
+  
+  display: grid;
+  grid-template-columns: 6fr 4fr; /* Dos columnas de ancho automático */
+  grid-template-rows: 2fr 5fr; /* Dos filas de altura automática */
+  margin: 15px;
+}
+.Tabla p {
+    grid-column: 2; /* En la columna 2 */
+    grid-row: 1 / span 2; /* Ocupa dos filas */
+    margin: 5px;
+    font-size: 1.4em;
+    align-self:center;
+    
+}
+
+table {
+   width: 80%;
+    border-collapse:collapse;
+    font-family: var(--paragraph-font);
+    margin: 10px;
+    padding: 1rem;
+    grid-column: 1; /* En la columna 1 */
+    grid-row: 2; /* En la fila 2 */
+
+}
+        
+th, td {
+    border: 2px solid #4d7ba1;
+    padding: 8px;
+    text-align: left;
+    
+ }
+
+ footer{
+    border-top: 1px solid grey;
+    color: rgba(116, 179, 245, 0.47);
+    font-family: Glory,Helvetica, sans-serif;
+}
+footer p{
+    
+    text-align: center;
+    color:grey;
+    font-size: 0.9rem;
 }
 
