@@ -377,23 +377,26 @@ button:hover{
    
 }
 
-/*Hoja de Trips*/
+/*--------------------Hoja de Trips----------------------*/
 .container{
     display: flex;
     justify-content: center;
     background-color: #BFD7D9;
+    margin-top: 1%;
 }
 .titulo{
   text-align: center;
 }
+
 h3{
     font-family:'Roboto Slab' ;
 }
 .titulo a{
     text-decoration: none;
     font-family:'Roboto Slab';
-    color:#ccc;
-    font-size: 1rem;
+    color:#1c3564;
+    font-size: 1.3rem;
+    font-family: var(--heading-font);
 }
 
 .titulo button:hover{
@@ -469,3 +472,108 @@ footer p{
     font-size: 0.9rem;
 }
 
+/*-------------------------Hoja HOME--------------------------*/
+.part1{
+    display: flex;
+    
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+
+}
+.parte1-2 {
+    text-align: center;
+    
+   
+}
+
+
+.parte1-2 img{
+    width: 100vw; /* Establece el ancho de la imagen al 100% del ancho del contenedor */
+    height: 40vw; /* Mantiene la proporción de aspecto de la imagen */
+    
+}
+.parte2{
+    display: flex;
+    justify-content: center;   
+    background-color: #8274ff;
+}
+
+.formulario1 {
+   font-family: var(--paragraph-font);
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid cadetblue;
+    width: 30%;  
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    
+}
+
+
+.formulario1 label{
+   text-align: right;
+    padding-right: 1rem;
+    grid-column:1 ;
+    
+    font-size: 1.5rem;
+    
+}
+
+.formulario1 input{
+    text-align: left;
+    width: 20vh;
+    font-size: 1rem;
+    margin-bottom: 0.9rem;
+    grid-column: 2;
+    
+    
+}
+
+.botom{
+    grid-column: 1/span 2;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.parte3{
+    display: grid;
+    
+   
+}
+.parte3 h2{
+    text-align: center;
+}
+.columnas{
+    display:flex;
+    text-align: center;
+    width: 100%;
+    
+}
+.testimonios1{
+    width: 50%;
+    margin-bottom: 20px;
+    margin: 20px;
+    padding: 15px;
+    
+}
+.testimonios2{
+    width: 50%;
+    margin-bottom: 20px;
+    margin: 20px;
+    padding: 15px;
+   
+    
+}
+
+.testimonios1 img{
+    max-width: 35%;
+    grid-column: 2;
+    border: 2px solid cadetblue;
+}
+.testimonios2 img{
+    max-width: 45%;
+    border: 2px solid cadetblue;
+}
+.testimonios1 img, .testimonios2 p{
+    grid-row: 3;
+}

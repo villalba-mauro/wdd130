@@ -3,26 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Home Page">
+    <meta name="author" content="Home Page">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
+
 <body>
-    <div>
-        <h1>Bienvenido</h1>
-        <img src="images/253.jpg" alt="">
+    <header class="header">
+        <img src="images/logo.png" alt="Milo Rafting">   
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="parte1">
+        <div class="parte1-2">
+            <h1>Wecolme to Milo Rafting</h1>
+            <img src="images/1111.jpg" alt="">
+            <h2>"Ride the Currents of Adventure – Subscribe to Our Rafting Newsletter for Exclusive Updates and Offers!"</h2>
+        </div>
     </div>
 
-    <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name">
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email">
-
-        <input type="submit" value="Suscribe">
-    </form>
-    <div>
+    <div class="parte2">
+        <form class="formulario1">
+           
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
     
-        <a href="#">Book Your Adventure Now!</a>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+                <div class="botom">
+                    <input type="submit" value="Suscribe">
+                </div>
+        </form>   
     </div>
+
+    <div class="parte3">
+        <h2>Experiences</h2>
+        <div class="columnas">
+            <div class="testimonios1">
+                <img src="images/cdcdc-removebg-preview.png" alt="">
+                <p>I opted for the "Adrenaline in the Water" experience, and let me tell you, it was a rollercoaster of emotions from start to finish. I gathered my friends at the rafting company's base with adrenaline palpable in the air. Once on the water, every splash and every sharp turn took us to a whole new level of excitement. It felt like we were challenging the river and conquering each wave. By the end of the trip, we were filled with euphoria, sharing our water exploits with smiles of satisfaction on our faces.</p>            </div>
+            <div class="testimonios2">
+                <img src="images/ddsdsc-removebg-preview.png" alt="">
+                <p>I decided to embark on the calmer "Field trip to the mountain" experience with my whole family. From the little ones to the grandparents, we were all excited for this adventure together. Drifting down the serene waters surrounded by the majesty of the mountains, we felt a deep connection with nature and each other. Moments of excitement intertwined with moments of tranquility, creating memories we'll treasure forever. By the end of the day, we left with hearts full of joy and the feeling of having shared a truly special family day.</p>
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+        <p>©️ 2024 | Milo Rafting | Mauro Villalba </p>
+        <nav class="sociallinks">
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook"></a>
+            
+            <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram"></a>
+            
+            <a href="https://twitter.com/?lang=es"><img src="images/twitter.png" alt="Twitter"></a>
+            
+        </nav>
+    </footer>
 </body>
 </html>
