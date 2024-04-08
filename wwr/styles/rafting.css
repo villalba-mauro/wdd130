@@ -2,9 +2,9 @@
 :root {
     --heading-color: #000000;
     --paragraph-color: #140303;
-    --link-color: #007bff; /* Adjust as needed */
-    --hero-background: url('images/river-wide2.jpeg') no-repeat center center/cover; /* Adjust the path to your hero image */
-    --article-background: rgba(235, 204, 204, 0.685); /* Adjust the background color and opacity */
+    --link-color: #007bff; 
+    --hero-background: url('images/river-wide2.jpeg') no-repeat center center/cover; 
+    --article-background: rgba(235, 204, 204, 0.685); 
     --heading-font:'Roboto Slab';
     --paragraph-font:'Glory';
 }
