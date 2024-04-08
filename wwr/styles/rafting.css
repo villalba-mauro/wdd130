@@ -193,7 +193,7 @@ footer {
     text-align: right;
 }
 
-
+/*----------Contact Page--------------*/
 .header{
     margin: 0 auto;
     display: grid;
@@ -227,10 +227,12 @@ nav a {
 .navigation a:hover{
     background-color: rgb(255, 214, 120);
 }
+
 .navigation{
     display: flex;
     list-style: none;
 }
+
 .navigation li {
     flex: 1 1 100%; 
 }
@@ -246,7 +248,6 @@ body {
 
 }
 
-
 .caja{
     display:grid;
     grid-template-columns: 33% 33% 33%;
@@ -260,7 +261,7 @@ body {
 }
 
 form{
-    background-color: #E8F1F2;
+    background-color: #ffffff;
     display: grid;
     grid-template-columns:5fr 3fr ;
 }
@@ -299,6 +300,7 @@ h2{
 .company h1{
     font-family:'Roboto Slab';
     font-size:2rem;
+    color: rgb(0, 0, 0);
 }
 
 footer{
